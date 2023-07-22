@@ -34,6 +34,11 @@
   --font: "Inter"; /* Custom font | Default: 'Inter' */
   --avatar-roundness: 50%; /* Roundness for avatars. | 0% = Square, 50% = Circle | Default: 50% */
   --server-roundness: 50%; /* Roundness for servers. | 0% = Square, 50% = Circle | Default: 50% */
+  --chat-bubble-bg: rgb(32, 32, 45);
+  --scrollbar-background: rgb(32, 32, 45);
+  --scrollbar-background-hover: rgba(32, 32, 45, 0.9);
+  --scrollbar-background-active: rgba(32, 32, 45, 0.8);
+  --lightness: 0%;
   /*
    * RadialStatus veriables
    */
