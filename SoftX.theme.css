@@ -1,19 +1,20 @@
 /**
  * @name SoftX
  * @author whois.hoeless, Gibbu
- * @version 1.0.0
+ * @version 1.1.19
  * @description SoftX rewritten
  * @source https://github.com/DiscordStyles/SoftX
  * @invite ZHthyCw
 */
 
-@import url('https://raw.githubusercontent.com/whois-hoeless/Yami-SoftX/master/SoftX.css');
+@import url('https://discordstyles.github.io/SoftX/SoftX.css');
 
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
 /* Theme imports */
-@import url("https://raw.githubusercontent.com/whois-hoeless/Yami-SoftX/master/RadialGlow.css"); /* RadialGlow effect for avatars. | Remove this line to disable. */
-@import url("https://raw.githubusercontent.com/whois-hoeless/Yami-SoftX/master/windows-titlebar.css"); /* Windows titlebar. | Remove this line to disable. */
+@import url("https://discordstyles.github.io/SoftX/RadialGlow.css"); /* RadialGlow effect for avatars. | Remove this line to disable. */
+@import url("https://discordstyles.github.io/SoftX/VerticalUserArea.css"); /* Vertical user area. Moves the mute, defean and settings icons to the server list. | Remove this line to disable. */
+@import url("https://discordstyles.github.io/Addons/windows-titlebar.css"); /* Windows titlebar. | Remove this line to disable. */
 :root {
   /*
    * SoftX variables
