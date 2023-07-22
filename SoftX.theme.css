@@ -21,7 +21,7 @@
    */
   /*--background-image: url("https://minimalistic-wallpaper.demolab.com/?random"); /* Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
   /*--background-image: url("https://i.imgur.com/PVagY0r.png"); Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
-  --background-image: url("https://i.imgur.com/ic1wgOF.png");
+  /*--background-image: url("https://i.imgur.com/ic1wgOF.png");*\
   --background-blur: 0px; /* Blur intensity of --background-image | Must end in px | Default: 0px */
   --accent: 175, 139, 243; /* Colour used around the app. | Values are in R,G,B format. | Default: 0, 231, 169 */
   --channels-width: 300px; /* Width of the channels list. | Default: 300px */
@@ -34,11 +34,14 @@
   --font: "Inter"; /* Custom font | Default: 'Inter' */
   --avatar-roundness: 50%; /* Roundness for avatars. | 0% = Square, 50% = Circle | Default: 50% */
   --server-roundness: 50%; /* Roundness for servers. | 0% = Square, 50% = Circle | Default: 50% */
-  --chat-bubble-bg: rgb(32, 32, 45);
+  --chat-bubble-bg: rgba(32, 32, 45, 0.4);
   --scrollbar-background: rgb(32, 32, 45);
   --scrollbar-background-hover: rgba(32, 32, 45, 0.9);
   --scrollbar-background-active: rgba(32, 32, 45, 0.8);
+  --input-background: rgb(10, 10, 16);
   --lightness: 0%;
+  --bg-primary: rgb(10, 10, 16);
+  --bg-secondary: rgb(10, 10, 16);
   /*
    * RadialStatus veriables
    */
