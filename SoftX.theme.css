@@ -15,12 +15,14 @@
 @import url("https://discordstyles.github.io/SoftX/RadialGlow.css"); /* RadialGlow effect for avatars. | Remove this line to disable. */
 @import url("https://discordstyles.github.io/SoftX/VerticalUserArea.css"); /* Vertical user area. Moves the mute, defean and settings icons to the server list. | Remove this line to disable. */
 @import url("https://discordstyles.github.io/Addons/windows-titlebar.css"); /* Windows titlebar. | Remove this line to disable. */
+
 :root {
   /*
    * SoftX variables
    */
   /*--background-image: url("https://minimalistic-wallpaper.demolab.com/?random"); /* Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
   /*--background-image: url("https://i.imgur.com/PVagY0r.png"); Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --user-popout-bg: hsl(0 0% 0% / 0);
   --background-image: url("https://i.imgur.com/ic1wgOF.png");
   --background-blur: 0px; /* Blur intensity of --background-image | Must end in px | Default: 0px */
   --accent: 175, 139, 243; /* Colour used around the app. | Values are in R,G,B format. | Default: 0, 231, 169 */
@@ -39,6 +41,17 @@
   --scrollbar-background-hover: rgba(32, 32, 45, 0.9);
   --scrollbar-background-active: rgba(32, 32, 45, 0.8);
   --input-background: rgb(10, 10, 16);
+  --lightness: 0%;
+  --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -1px rgb(0 0 0 / 0.06);
+  --shadow-lg: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 10px 10px -5px rgb(0 0 0 / 0.04);
+  --background-modifier-hover: rgb(255 255 255 / .02);
+  --background-modifier-active: rgb(255 255 255 / .02);
+  --border: hsl(var(--hue) var(--saturation) calc(var(--lightness) / 2) / 0.6);
+  --bg-primary: hsl(var(--hue) var(--saturation) var(--lightness) / calc(var(--opacity) + 0));
+  --bg-secondary: hsl(var(--hue) var(--saturation) var(--lightness) / calc(var(--opacity) + 0));
+  --bg-tertiary: hsl(var(--hue) var(--saturation) var(--lightness) / calc(var(--opacity) + 0));
+  --fg-primary: hsl(0 0% 100% / 0.0);
+  --fg-secondary: hsl(0 0% 100% / 0.00);
   /*
    * RadialStatus veriables
    */
