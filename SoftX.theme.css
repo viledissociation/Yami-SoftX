@@ -70,4 +70,18 @@
   --rs-invisible-color: #d3d3d3; /* Default: #747f8d */
   --rs-phone-color: var(--rs-online-color); /* Color of the phone for mobile users | Default: var(--rs-online-color) */
   --rs-phone-visible: block; /* Visibility of the phone for mobile users | Default: block */
+  --background-primary: var(--input-background);
+  --background-secondary: var(--input-background);
+  --background-tertiary: var(--input-background);
+  --background-secondary-alt: var(--input-background);
+}
+
+#app-mount .search-2Mwzzq .searchBar-jGtisZ {
+  width: 250px;
+  transition: none;
+  background: rgba(255, 255, 255, 0.0);
+}
+
+#app-mount .childWrapper-1j_1ub, #app-mount .circleIconButton-1VxDrg {
+    background: rgb(0 0 0 / 0%);
 }
