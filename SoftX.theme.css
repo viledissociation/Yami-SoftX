@@ -83,9 +83,36 @@
 }
 
 #app-mount .childWrapper-1j_1ub, #app-mount .circleIconButton-1VxDrg {
-    background: rgb(0 0 0 / 0%);
+    background: rgba(0, 0, 0, 0.0);
 }
 
 .grid-1aWVsE {
   background: rgb(10, 10, 16)
+}
+
+.wrapper-1gVUIN.minimum-fXpVNc .callContainer-HtHELf {
+    background: rgba(10,10,16, 0.0);
+}
+
+.colorable-3rVGna.primaryDark-2UJt1G, .colorable-3rVGna.primaryDark-2UJt1G .centerIcon-JYpTUi {
+    color: #AF8BF3;
+}
+.colorable-3rVGna.primaryDark-2UJt1G {
+    background: rgb(10,10,16);
+}
+
+.theme-dark {
+    background: rgba(10,10,16,0);
+}
+
+.wrapper-1gVUIN.minimum-fXpVNc .callContainer-HtHELf {
+    background: rgb(10,10,16);
+}
+
+.spoilerContainer-1Dl06W {
+    position: relative;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    border-radius: var(--radius-xs);
+    background-color: var(--input-background);
 }
